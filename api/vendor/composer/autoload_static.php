@@ -39,6 +39,10 @@ class ComposerStaticInitf54d0fad3929b17ad9c2e507103d1440
             'Symfony\\Component\\Debug\\' => 24,
             'Symfony\\Component\\Console\\' => 26,
         ),
+        'P' => 
+        array (
+            'Predis\\' => 7,
+        ),
         'M' => 
         array (
             'Monolog\\' => 8,
@@ -54,6 +58,7 @@ class ComposerStaticInitf54d0fad3929b17ad9c2e507103d1440
             'Illuminate\\Translation\\' => 23,
             'Illuminate\\Support\\' => 19,
             'Illuminate\\Session\\' => 19,
+            'Illuminate\\Redis\\' => 17,
             'Illuminate\\Queue\\' => 17,
             'Illuminate\\Pipeline\\' => 20,
             'Illuminate\\Pagination\\' => 22,
@@ -151,6 +156,10 @@ class ComposerStaticInitf54d0fad3929b17ad9c2e507103d1440
         array (
             0 => __DIR__ . '/..' . '/symfony/console',
         ),
+        'Predis\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/predis/predis/src',
+        ),
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
@@ -178,6 +187,10 @@ class ComposerStaticInitf54d0fad3929b17ad9c2e507103d1440
         'Illuminate\\Session\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/session',
+        ),
+        'Illuminate\\Redis\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/redis',
         ),
         'Illuminate\\Queue\\' => 
         array (
