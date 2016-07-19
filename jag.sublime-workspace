@@ -239,6 +239,73 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "api/app/Http/routes.php",
+			"settings":
+			{
+				"buffer_size": 640,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n\nnamespace App\\Http\\Middleware;\n\nuse Closure;\nuse Illuminate\\Contracts\\Auth\\Factory as Auth;\n\nclass Authenticate\n{\n    /**\n     * The authentication guard factory instance.\n     *\n     * @var \\Illuminate\\Contracts\\Auth\\Factory\n     */\n    protected $auth;\n\n    /**\n     * Create a new middleware instance.\n     *\n     * @param  \\Illuminate\\Contracts\\Auth\\Factory  $auth\n     * @return void\n     */\n    public function __construct(Auth $auth)\n    {\n        $this->auth = $auth;\n    }\n\n    /**\n     * Handle an incoming request.\n     *\n     * @param  \\Illuminate\\Http\\Request  $request\n     * @param  \\Closure  $next\n     * @param  string|null  $guard\n     * @return mixed\n     */\n    public function handle($request, Closure $next, $guard = null)\n    {\n        if ($this->auth->guard($guard)->guest()) {\n            return response('Unauthorized.', 401);\n        }\n        \n        return $next($request);\n    }\n}\n",
+			"file": "api/app/Http/Middleware/Authenticate.php",
+			"file_size": 911,
+			"file_write_time": 131130726377057538,
+			"settings":
+			{
+				"buffer_size": 919,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "api/vendor/laravel/lumen-framework/src/Application.php",
+			"settings":
+			{
+				"buffer_size": 23550,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "api/app/Http/Controllers/PMS/customerController.php",
+			"settings":
+			{
+				"buffer_size": 3156,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "api/bootstrap/app.php",
+			"settings":
+			{
+				"buffer_size": 3104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "api/app/Http/Middleware/authMiddleware.php",
+			"settings":
+			{
+				"buffer_size": 1175,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "api/composer.json",
+			"settings":
+			{
+				"buffer_size": 791,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "api/vendor/laravel/lumen-framework/config/database.php",
+			"settings":
+			{
+				"buffer_size": 4706,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -313,10 +380,26 @@
 	},
 	"expanded_folders":
 	[
-		"/opt/lampp/htdocs/laravel/laravel-master/jag"
+		"/opt/lampp/htdocs/laravel/laravel-master/jag",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/api/app",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/api/app/Http",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/api/app/Http/Controllers",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/api/app/Http/Middleware",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/api/app/Http/Models"
 	],
 	"file_history":
 	[
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/core/config/database.php",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/api/app/Http/Middleware/ExampleMiddleware.php",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/api/app/Http/Controllers/PMS/tarifController.php",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/api/app/Http/Controllers/PMS/produkController.php",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/api/app/Http/Controllers/PMS/pnwrMstController.php",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/core/app/Http/routes.php",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/api/bootstrap/app.php",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/api/.env",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/api/app/Http/Controllers/PMS/liburController.php",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/api/app/Http/Controllers/ExampleController.php",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/api/app/Http/Controllers/PMS/fpMstController.php",
 		"/opt/lampp/htdocs/laravel/laravel-projects/radio/public/ext/ng-html/PMS/form/pnwrTayang.html",
 		"/opt/lampp/htdocs/laravel/laravel-projects/radio/app/Http/routes.php",
 		"/opt/lampp/htdocs/laravel/laravel-projects/radio/app/Http/Requests/req_pms_produk_mst.php",
@@ -433,22 +516,11 @@
 		"/opt/lampp/htdocs/laravel/laravel-projects/radio/resources/views/pms/messages.html",
 		"/opt/lampp/htdocs/laravel/laravel-projects/radio/resources/views/layouts/messages.html",
 		"/opt/lampp/htdocs/laravel/laravel-projects/radio/app/Providers/AppServiceProvider.php",
-		"/opt/lampp/htdocs/laravel/laravel-projects/radio/database/migrations/2016_05_08_103339_create_pms_produk_mst.php",
-		"/opt/lampp/htdocs/laravel/laravel-projects/radio/public/app/helper/myHelper.js",
-		"/opt/lampp/htdocs/laravel/laravel-projects/radio/public/app/controllers/customer.js",
-		"/opt/lampp/htdocs/bigforum/resources/views/voucher/tbl_order.blade.php",
-		"/opt/lampp/htdocs/bigforum/resources/views/voucher/tbl_index.blade.php",
-		"/opt/lampp/htdocs/bigforum/resources/views/voucher/v_index.blade.php",
-		"/opt/lampp/htdocs/bigforum/app/Http/routes.php",
-		"/opt/lampp/htdocs/bigforum/app/Http/Controllers/voucher/AdmVoucherController.php",
-		"/opt/lampp/htdocs/bigforum/resources/views/voucher/includes/f_konfirmasi_pembayaran.blade.php",
-		"/opt/lampp/htdocs/bigforum/resources/views/voucher/includes/f_confirm_chart.blade.php",
-		"/opt/lampp/htdocs/bigforum/resources/views/admin/set-kpi-detail.blade.php",
-		"/opt/lampp/htdocs/bigforum/resources/views/voucher/includes/f_invoice.blade.php"
+		"/opt/lampp/htdocs/laravel/laravel-projects/radio/database/migrations/2016_05_08_103339_create_pms_produk_mst.php"
 	],
 	"find":
 	{
-		"height": 22.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -463,6 +535,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'App\\Http\\Controllers\\\\'.",
+			"view",
+			"v",
+			"view",
+			"veiw",
 			"class",
 			"7",
 			"r",
@@ -585,12 +662,7 @@
 			"]]",
 			"[[",
 			"]]",
-			"[[",
-			"]]",
-			"[[",
-			"label",
-			"span",
-			"th"
+			"[["
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -627,8 +699,269 @@
 	"groups":
 	[
 		{
+			"selected": 5,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "api/app/Http/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								520,
+								520
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "api/app/Http/Middleware/Authenticate.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								860,
+								860
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "api/vendor/laravel/lumen-framework/src/Application.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23222,
+								23222
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 10220.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "api/app/Http/Controllers/PMS/customerController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "api/bootstrap/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3104,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3027,
+								3027
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 665.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "api/app/Http/Middleware/authMiddleware.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								639,
+								639
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "api/composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 791,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								367,
+								367
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "api/vendor/laravel/lumen-framework/config/database.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4706,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 1414.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -685,8 +1018,40 @@
 		"selected_items":
 		[
 			[
+				"compo",
+				"api/composer.json"
+			],
+			[
+				"database",
+				"api/vendor/laravel/lumen-framework/config/database.php"
+			],
+			[
+				"app/http/middleware/",
+				"api/app/Http/Middleware/ExampleMiddleware.php"
+			],
+			[
+				"app",
+				"api/bootstrap/app.php"
+			],
+			[
+				"auth",
+				"api/app/Http/Middleware/Authenticate.php"
+			],
+			[
+				"lumen/application",
+				"api/vendor/laravel/lumen-framework/src/Application.php"
+			],
+			[
 				"app.",
-				"config/app.php"
+				"api/bootstrap/app.php"
+			],
+			[
+				"route",
+				"core/app/Http/routes.php"
+			],
+			[
+				"api/app.php",
+				"api/bootstrap/app.php"
 			],
 			[
 				"tayang",
@@ -699,10 +1064,6 @@
 			[
 				"realisasicontrol",
 				"app/Http/Controllers/PROD/realisasiController.php"
-			],
-			[
-				"route",
-				"app/Http/routes.php"
 			],
 			[
 				"req_pro",
@@ -1005,10 +1366,6 @@
 				"resources/views/pms/pnwrMst.blade.php"
 			],
 			[
-				"app",
-				"public/app/app.js"
-			],
-			[
 				"con",
 				"public/trash_test/contact.html"
 			],
@@ -1171,30 +1528,6 @@
 			[
 				"modalli",
 				"public/ext/ng-html/modalLibur.html"
-			],
-			[
-				"pnwrmst.bl",
-				"resources/views/pms/pnwrMst.blade.php"
-			],
-			[
-				"modalpnw",
-				"public/ext/ng-html/modalPnwrMst.html"
-			],
-			[
-				"app.bl",
-				"resources/views/layouts/app.blade.php"
-			],
-			[
-				"customer.bl",
-				"resources/views/pms/customer.blade.php"
-			],
-			[
-				"libu",
-				"app/Http/Controllers/PMS/liburController.php"
-			],
-			[
-				"reqpmscu",
-				"app/Http/Requests/reqPmsCustomerMst.php"
 			]
 		],
 		"width": 0.0
