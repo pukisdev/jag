@@ -1,0 +1,1374 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cek",
+				"cekAttribut"
+			],
+			[
+				"nama",
+				"nama_karyawan"
+			],
+			[
+				"status",
+				"status_pesan"
+			],
+			[
+				"_jml",
+				"_jmlVoucher"
+			],
+			[
+				"_id",
+				"_idVoucher"
+			],
+			[
+				"bank",
+				"bank_tujuan"
+			],
+			[
+				"no_bukti",
+				"no_bukti_penerimaan"
+			],
+			[
+				"coa_id",
+				"coa_id_bank"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"bukti",
+				"buktiKeuPenerimaan"
+			],
+			[
+				"nilai",
+				"nilai_K2"
+			],
+			[
+				"no",
+				"no_bukti_penerimaan"
+			],
+			[
+				"jenis",
+				"jenisD1"
+			],
+			[
+				"arr",
+				"arrData"
+			],
+			[
+				"jml_",
+				"jml_tersedia"
+			],
+			[
+				"C",
+				"Carbon"
+			],
+			[
+				"vouch",
+				"voucher_cart"
+			],
+			[
+				"voucher",
+				"voucherHotel"
+			],
+			[
+				"inser",
+				"insert_harga"
+			],
+			[
+				"harga",
+				"harga_final"
+			],
+			[
+				"read",
+				"readonly"
+			],
+			[
+				"vali",
+				"validasi_acc"
+			],
+			[
+				"hara",
+				"harga_final"
+			],
+			[
+				"ran",
+				"random_id"
+			],
+			[
+				"base64_",
+				"base64_encode"
+			],
+			[
+				"Re",
+				"Response"
+			],
+			[
+				"hituga",
+				"hitung_potongan_rp"
+			],
+			[
+				"hitunga",
+				"hitung_potongan_rp"
+			],
+			[
+				"hitung",
+				"hitung_potongan_rp"
+			],
+			[
+				"mod",
+				"modal-body"
+			],
+			[
+				"v_",
+				"v_saldo_cuti"
+			],
+			[
+				"thr",
+				"throttles"
+			],
+			[
+				"reu",
+				"request"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"value",
+				"value_det"
+			],
+			[
+				"con",
+				"condition"
+			],
+			[
+				"sn_da",
+				"sn_data_comment"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"m_st",
+				"m_social_network"
+			],
+			[
+				"sub",
+				"subQuery"
+			],
+			[
+				"QTY_",
+				"QTY_HPP"
+			],
+			[
+				"ad",
+				"append"
+			],
+			[
+				"NO_",
+				"NO_PENAWARAN_DET"
+			],
+			[
+				"_",
+				"_FILES"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "database/seeds/default_acl.php",
+			"settings":
+			{
+				"buffer_size": 3664,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Models/sys/sys_type_mst.php",
+			"settings":
+			{
+				"buffer_size": 274,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Models/sys/sys_status_mst.php",
+			"settings":
+			{
+				"buffer_size": 280,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2016_07_24_025639_acl.php",
+			"settings":
+			{
+				"buffer_size": 6289,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/migrations/2014_10_12_000000_create_users_table.php",
+			"settings":
+			{
+				"buffer_size": 1330,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 180.0,
+		"last_filter": "Snippet: fc",
+		"selected_items":
+		[
+			[
+				"Snippet: fc",
+				"Snippet: Function"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: cons",
+				"Snippet: function __construct"
+			],
+			[
+				"Snippet: const",
+				"Snippet: constructor"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: I",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packa",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"\"Emmet\"",
+			"\"Install Package\" ",
+			"\"Emmet\"",
+			"'Emmet'",
+			"Emmet",
+			"\"Install Package\" ",
+			"git checkout -t origin/python3",
+			"git checkout -t oraigin/python3",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/core",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/core/app",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/core/app/Http",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/core/database",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/core/database/migrations",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/core/database/seeds"
+	],
+	"file_history":
+	[
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/core/app/Http/Models/sys/sys_status_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-master/jag/core/app/Http/Models/sys/sys_type_mst.php",
+		"/opt/lampp/htdocs/bigforum/config/database.php",
+		"/opt/lampp/htdocs/bigforum/app/Http/routes.php",
+		"/opt/lampp/htdocs/bigforum/app/Http/Controllers/voucher/voucherController.php",
+		"/opt/lampp/htdocs/bigforum/app/Http/Controllers/voucher/perdinVoucherController.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/voucher/tbl_index.blade.php",
+		"/opt/lampp/htdocs/bigforum/app/Http/Controllers/voucher/AdmVoucherController.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/voucher/v_index.blade.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/voucher/includes/f_show_chart.blade.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/voucher/includes/f_confirm_perdin.blade.php",
+		"/opt/lampp/htdocs/bigforum/app/Http/Controllers/voucher/voucherPembayaranController.php",
+		"/opt/lampp/htdocs/bigforum/public/bigforum_old/report/pajak/efakturv2.php",
+		"/opt/lampp/htdocs/bigforum/public/bigforum_old/includes/conn.php",
+		"/opt/lampp/htdocs/bigforum/public/bigforum_old/portal.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/layouts/left-sidebar.blade.php",
+		"/opt/lampp/htdocs/bigforum/public/bigforum_old/right.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/voucher/includes/f_confirm_chart.blade.php",
+		"/opt/lampp/htdocs/bigforum/public/bigforum_old/nav.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/voucher/includes/f_konfirmasi_pembayaran.blade.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/voucher/tbl_order.blade.php",
+		"/opt/lampp/htdocs/bigforum/app/Console/Commands/voucherHotel.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/pa-karyawan/form-penilaian-karyawan-p2.blade.php",
+		"/opt/lampp/htdocs/bigforum/app/Http/Controllers/paKaryawan/PaKaryawanController.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/voucher/includes/f_data.blade.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/voucher/pdf/order_tokopedia.blade.php",
+		"/opt/lampp/htdocs/bigforum/app/Http/Controllers/eFiling/eFilingController.php",
+		"/opt/lampp/htdocs/bigforum/app/Console/Kernel.php",
+		"/opt/lampp/htdocs/bigforum/app/Console/Commands/voucherHotelOrder.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/layouts/master.blade.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/pa-kpi/form-penilaian-kpi.blade.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/voucher/lov_tbl_voucher.blade.php",
+		"/opt/lampp/htdocs/bigforum/public/assets/css/bootstrap.new.css",
+		"/opt/lampp/htdocs/bigforum/public/assets/css/bootstrap.css",
+		"/opt/lampp/htdocs/bigforum/resources/views/layouts/header.blade.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/layouts/right-sidebar.blade.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/admin/set-kpi-detail.blade.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/voucher/includes/f_invoice.blade.php",
+		"/opt/lampp/htdocs/bigforum/app/Http/Controllers/admin/AdminController.php",
+		"/opt/lampp/htdocs/bigforum/app/Http/Requests/VoucherRequest.php",
+		"/opt/lampp/htdocs/bigforum/config/app.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/home.blade.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/voucher/pdf/order_tokopedia.backup.blade.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/welcome_example.blade.php",
+		"/opt/lampp/htdocs/bigforum/composer.json",
+		"/opt/lampp/htdocs/bigforum/app/Http/Middleware/Authenticate.php",
+		"/opt/lampp/htdocs/bigforum/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
+		"/opt/lampp/htdocs/bigforum/app/User.php",
+		"/opt/lampp/htdocs/bigforum/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
+		"/opt/lampp/htdocs/bigforum/vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php",
+		"/opt/lampp/htdocs/bigforum/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/sdm/CutiIzin/form.blade.php",
+		"/opt/lampp/htdocs/bigforum/app/Http/Controllers/sdm/CutiIzin/CutiIzinController.php",
+		"/opt/lampp/htdocs/bigforum/public/bigforum_old/request_izin.php",
+		"/opt/lampp/htdocs/bigforum/app/Http/Models/CutiIzinModel.php",
+		"/opt/lampp/htdocs/bigforum/public/bigforum_old/cuti_form.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/pa-kpi/detail-penilaian-kpi.blade.php",
+		"/opt/lampp/htdocs/bigforum/app/Http/Controllers/paKpi/PaKpiController.php",
+		"/opt/lampp/htdocs/bigforum/app/Http/Model/PegawaiModel.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/sdm/CutiIzin/CutiIzin.blade.php",
+		"/opt/lampp/htdocs/bigforum/app/Http/Controllers/sdm/cuti_izin/CutiIzinController.php",
+		"/opt/lampp/htdocs/bigforum/resources/views/e-filing/form-data.blade.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_module_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_kota_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_negara_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_perusahaan_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_provinsi_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_kategori_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_group_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_group_akses_det.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_bulan_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_app_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_user_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_type_app_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_status_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_status_approve_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Sys_laravel/sys_user_akses_det.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/resources/views/templates/gentalella/left.blade.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Http/Middleware/Authenticate.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_043940_create_sys_app_msts_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_044204_create_sys_user_msts_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_044203_create_sys_user_akses_dets_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_044203_create_sys_type_app_msts_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_044201_create_sys_perusahaan_msts_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_044203_create_sys_status_msts_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_044202_create_sys_status_approve_msts_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_044202_create_sys_provinsi_msts_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_044201_create_sys_module_msts_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_044201_create_sys_negara_msts_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_044200_create_sys_kota_msts_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_044159_create_sys_group_msts_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_044200_create_sys_kategori_msts_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_044159_create_sys_group_akses_dets_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_05_044159_create_sys_bulan_msts_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/config/auth.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/config/app.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/composer.json",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Http/Middleware/MenuMiddleware.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/laravel/framework/src/Illuminate/Auth/Middleware/AuthenticateWithBasicAuth.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/laravel/framework/src/Illuminate/Validation/Validator.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/resources/views/auth/register.blade.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/laravel/framework/src/Illuminate/Support/Facades/Validator.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/laravel/framework/src/Illuminate/Contracts/Validation/Validator.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/vlucas/phpdotenv/src/Validator.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/laravel/framework/src/Illuminate/Contracts/Auth/Authenticatable.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Http/Controllers/Auth/AuthController.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Models/Auth/Sys_user_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/config/oracle.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/config/database.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/.env",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_03_03_015220_sys_app_mst.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_02_28_062036_create_users_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2014_10_12_100000_create_user_akses_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/app/Providers/AuthServiceProvider.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch_ora/database/migrations/2016_02_28_062036_create_users_tables.php",
+		"/home/rianday/.config/sublime-text-3/Packages/User/constructor.sublime-snippet",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch/vendor/symfony/routing/Route.php",
+		"/opt/lampp/htdocs/laravel/laravel-projects/try_catch/vendor/laravel/framework/src/Illuminate/Routing/Route.php"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sys_type_app_mst",
+			"app",
+			"keterangan",
+			"sys_last_update",
+			"sys_user_update",
+			"add_chart",
+			"cekAttribut()",
+			"tambah_chart",
+			"form cuti",
+			"nama_karyawan",
+			"'_nama_karyawan' : $('#nama_karyawan').val(), ",
+			"nama_karyawan",
+			"jml_voucher",
+			"lanjutkan()",
+			"lanjutkan",
+			"!",
+			"$",
+			"$value->jml_pesan",
+			"$value->f_voucher",
+			"$nip",
+			"$value->",
+			"cek_ketersediaan",
+			"show_cart",
+			"tambah_chart",
+			"V_VOUCHER_STOCK\n",
+			"add_chart",
+			"hidden",
+			"strong",
+			"$id",
+			"id",
+			"!Auth::check() and !in_array(Auth::user()->nip, $this->allowed)",
+			"!in_array(Auth::user()->nip, $this->allowed)",
+			"no_bukti",
+			"jenis_bayar",
+			"cek",
+			"cekketer",
+			"alert",
+			",",
+			"getCoaBank(",
+			"debit",
+			"$buktiBayar->",
+			"buktiBayar",
+			"pNilaiKpi",
+			"jenisD1",
+			"data->max_voucher",
+			"K",
+			"arrData",
+			"add_invoice",
+			" id=\"jml_tersedia\"",
+			"toggle",
+			"('toggle')",
+			"toggle')",
+			"toggle",
+			"stright",
+			"strong",
+			"lanjutkan",
+			"persetujuan_acc(",
+			"jml",
+			"reff_voucher",
+			"persetujuan_acc",
+			"validasi_acc",
+			"jml_order",
+			"nama",
+			"$(this)",
+			"insert",
+			"$voucher",
+			"voucher",
+			"),",
+			"voucherHotel",
+			"SHOW_ORDER",
+			"$(this)",
+			"tambah",
+			"\\",
+			"tambah_chart",
+			"<?php $",
+			"['06625','141070','12891']",
+			"'))",
+			"typeahead",
+			"  -webkit-overflow-scrolling",
+			".modal-dialo",
+			".modal",
+			"modal.fade",
+			"modal",
+			"result",
+			"<span>",
+			"span",
+			"voucherPembayaranController",
+			"req",
+			"show_order",
+			"'harga'",
+			"harga",
+			"'id_voucher'",
+			"id_voucher",
+			"potongan_rp",
+			"request",
+			"update",
+			"9",
+			";",
+			"=",
+			"SHOW_ORDER",
+			"nama_bank",
+			"$nama_bank",
+			"berlaku",
+			"=>",
+			"!empty",
+			"75",
+			"9",
+			"true",
+			"potongan_rp",
+			"#jenis",
+			"bb",
+			"jenis",
+			"_jenis_bayar",
+			"total_bayar",
+			"$isi",
+			"max_voucher",
+			"!empty",
+			"jenis",
+			"nilai_bayar",
+			"nama_rekening",
+			"bank_tujuan",
+			"jenis_bayar",
+			"tgl_pembayaran",
+			",",
+			"BPB",
+			"BAP",
+			"berlaku",
+			"data_mst->jml"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"sys_tgl_created",
+			"sys_user_created",
+			"('show')",
+			"references",
+			"default(DB::raw('CURRENT_TIMESTAMP'))",
+			"  $table->",
+			"root",
+			"hris",
+			"/home/rianday/agp/rabu/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "database/seeds/default_acl.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3664,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1278,
+								1278
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 372.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Http/Models/sys/sys_type_mst.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 274,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								271,
+								271
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Http/Models/sys/sys_status_mst.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "database/migrations/2016_07_24_025639_acl.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5845,
+								5845
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1182.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "database/migrations/2014_10_12_000000_create_users_table.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "core.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sys_statu",
+				"app/Http/Models/sys/sys_status_mst.php"
+			],
+			[
+				"sys_type_mst",
+				"app/Http/Models/sys/sys_type_mst.php"
+			],
+			[
+				"voucher",
+				"app/Http/Controllers/voucher/voucherController.php"
+			],
+			[
+				"adm",
+				"app/Http/Controllers/voucher/AdmVoucherController.php"
+			],
+			[
+				"database",
+				"config/database.php"
+			],
+			[
+				"perdinvou",
+				"app/Http/Controllers/voucher/perdinVoucherController.php"
+			],
+			[
+				"route",
+				"app/Http/routes.php"
+			],
+			[
+				"voucher/admvouchercontroller",
+				"app/Http/Controllers/voucher/AdmVoucherController.php"
+			],
+			[
+				"perdinvouche",
+				"app/Http/Controllers/voucher/perdinVoucherController.php"
+			],
+			[
+				"vouch",
+				"app/Http/Controllers/voucher/voucherController.php"
+			],
+			[
+				"includes/f_confirm_perdin",
+				"resources/views/voucher/includes/f_confirm_perdin.blade.php"
+			],
+			[
+				"admvoucher",
+				"app/Http/Controllers/voucher/AdmVoucherController.php"
+			],
+			[
+				"report/pajak/efakturv2.php",
+				"public/bigforum_old/report/pajak/efakturv2.php"
+			],
+			[
+				"bigforum_old/includes/conn.php",
+				"public/bigforum_old/includes/conn.php"
+			],
+			[
+				"right.php",
+				"public/bigforum_old/right.php"
+			],
+			[
+				"nav.php",
+				"public/bigforum_old/nav.php"
+			],
+			[
+				"bigforum_old/portal",
+				"public/bigforum_old/portal.php"
+			],
+			[
+				"left",
+				"resources/views/layouts/left-sidebar.blade.php"
+			],
+			[
+				"tbl_inde",
+				"resources/views/voucher/tbl_index.blade.php"
+			],
+			[
+				"perdin",
+				"app/Http/Controllers/voucher/perdinVoucherController.php"
+			],
+			[
+				"perdinv",
+				"app/Http/Controllers/voucher/perdinVoucherController.php"
+			],
+			[
+				"left.b",
+				"resources/views/layouts/left-sidebar.blade.php"
+			],
+			[
+				"admvou",
+				"app/Http/Controllers/voucher/AdmVoucherController.php"
+			],
+			[
+				"admvo",
+				"app/Http/Controllers/voucher/AdmVoucherController.php"
+			],
+			[
+				"admv",
+				"app/Http/Controllers/AdmVoucherController.php"
+			],
+			[
+				"f_confi",
+				"resources/views/voucher/includes/f_confirm_chart.blade.php"
+			],
+			[
+				"f_",
+				"resources/views/voucher/includes/f_confirm_chart.blade.php"
+			],
+			[
+				"includes/f_show_chart",
+				"resources/views/voucher/includes/f_show_chart.blade.php"
+			],
+			[
+				"voucherco",
+				"app/Http/Controllers/voucher/voucherController.php"
+			],
+			[
+				"admvouch",
+				"app/Http/Controllers/voucher/AdmVoucherController.php"
+			],
+			[
+				"includes/f_confirm_chart",
+				"resources/views/voucher/includes/f_confirm_chart.blade.php"
+			],
+			[
+				"tbl_index",
+				"resources/views/voucher/tbl_index.blade.php"
+			],
+			[
+				"v_index",
+				"resources/views/voucher/v_index.blade.php"
+			],
+			[
+				"vouchercontroller",
+				"app/Http/Controllers/voucher/voucherController.php"
+			],
+			[
+				"voucherpembayarancontroller",
+				"app/Http/Controllers/voucher/voucherPembayaranController.php"
+			],
+			[
+				"form-penilaian-karyawan-p2.blade.php",
+				"resources/views/pa-karyawan/form-penilaian-karyawan-p2.blade.php"
+			],
+			[
+				"pemb",
+				"app/Http/Controllers/voucher/voucherPembayaranController.php"
+			],
+			[
+				"tbl_o",
+				"resources/views/voucher/tbl_order.blade.php"
+			],
+			[
+				"pembaya",
+				"app/Http/Controllers/voucher/voucherPembayaranController.php"
+			],
+			[
+				"tbl_",
+				"resources/views/voucher/tbl_index.blade.php"
+			],
+			[
+				"voucher/v_in",
+				"resources/views/voucher/v_index.blade.php"
+			],
+			[
+				"voucher/inde",
+				"resources/views/voucher/tbl_index.blade.php"
+			],
+			[
+				"efi",
+				"app/Http/Controllers/eFiling/eFilingController.php"
+			],
+			[
+				"vou",
+				"app/Http/Controllers/voucher/voucherController.php"
+			],
+			[
+				"includes/f_data",
+				"resources/views/voucher/includes/f_data.blade.php"
+			],
+			[
+				"assets/css",
+				"public/assets/css/bootstrap.css"
+			],
+			[
+				"toko",
+				"resources/views/voucher/pdf/order_tokopedia.blade.php"
+			],
+			[
+				"rou",
+				"app/Http/routes.php"
+			],
+			[
+				"f_konfirmasi_pembayaran",
+				"resources/views/voucher/includes/f_konfirmasi_pembayaran.blade.php"
+			],
+			[
+				"vouchercon",
+				"app/Http/Controllers/voucher/voucherController.php"
+			],
+			[
+				"v_",
+				"resources/views/voucher/v_index.blade.php"
+			],
+			[
+				"voucherp",
+				"app/Http/Controllers/voucher/voucherPembayaranController.php"
+			],
+			[
+				"v_inde",
+				"resources/views/voucher/v_index.blade.php"
+			],
+			[
+				"tbl_in",
+				"resources/views/voucher/tbl_index.blade.php"
+			],
+			[
+				"f_data",
+				"resources/views/voucher/includes/f_data.blade.php"
+			],
+			[
+				"admcont",
+				"app/Http/Controllers/voucher/AdmVoucherController.php"
+			],
+			[
+				"left-",
+				"resources/views/layouts/left-sidebar.blade.php"
+			],
+			[
+				"admin/set-kpi-detail",
+				"resources/views/admin/set-kpi-detail.blade.php"
+			],
+			[
+				"admincontroller",
+				"app/Http/Controllers/admin/AdminController.php"
+			],
+			[
+				"app",
+				"config/app.php"
+			],
+			[
+				"authi",
+				"app/Http/Middleware/Authenticate.php"
+			],
+			[
+				"f_invoice",
+				"resources/views/voucher/includes/f_invoice.blade.php"
+			],
+			[
+				"f_show_chart",
+				"resources/views/voucher/includes/f_show_chart.blade.php"
+			],
+			[
+				"app/user",
+				"app/User.php"
+			],
+			[
+				"registersusers",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php"
+			],
+			[
+				"authenticatesusers",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php"
+			],
+			[
+				"authenticatesandregistersusers",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php"
+			],
+			[
+				"illuminate/support/facades/auth",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php"
+			],
+			[
+				"app.",
+				"config/app.php"
+			],
+			[
+				"layouts/master",
+				"resources/views/layouts/master.blade.php"
+			],
+			[
+				"bigforum_old/request_izin.php",
+				"public/bigforum_old/request_izin.php"
+			],
+			[
+				"efilingcontroller",
+				"app/Http/Controllers/eFiling/eFilingController.php"
+			],
+			[
+				"cuti_form",
+				"public/bigforum_old/cuti_form.php"
+			],
+			[
+				"model.p",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
+				"auth.php",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php"
+			],
+			[
+				"middleware",
+				"vendor/laravel/framework/src/Illuminate/Auth/Middleware/AuthenticateWithBasicAuth.php"
+			],
+			[
+				"sitecontroller",
+				"app/Http/Controllers/sites/SiteController.php"
+			],
+			[
+				"authenticatable",
+				"vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php"
+			],
+			[
+				"vendor/laravel/framework/src/illuminate/auth/eloquentuserprovider.php",
+				"vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php"
+			],
+			[
+				"sessiong",
+				"vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php"
+			],
+			[
+				"framework/src/illuminate/database/eloquent/model.php",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
+				"/src/illuminate/validation/validator.php",
+				"vendor/laravel/framework/src/Illuminate/Validation/Validator.php"
+			],
+			[
+				"validator",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Validator.php"
+			],
+			[
+				"app/validator",
+				"vendor/vlucas/phpdotenv/src/Validator.php"
+			],
+			[
+				"illuminate/foundation/auth/authenticatesandregistersusers",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesAndRegistersUsers.php"
+			],
+			[
+				"registersusers.php",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/RegistersUsers.php"
+			],
+			[
+				"illuminate/database/eloquent/model",
+				"vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php"
+			],
+			[
+				"illuminate/contracts/auth/authenticatable",
+				"vendor/laravel/framework/src/Illuminate/Contracts/Auth/Authenticatable.php"
+			],
+			[
+				"illuminate/auth/authenticatable",
+				"vendor/laravel/framework/src/Illuminate/Auth/Authenticatable.php"
+			],
+			[
+				"illuminate/foundation/auth/user",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php"
+			],
+			[
+				"illuminate/routing/router",
+				"vendor/laravel/framework/src/Illuminate/Routing/Router.php"
+			],
+			[
+				"",
+				"config/auth.php"
+			],
+			[
+				"config/auth",
+				"config/auth.php"
+			],
+			[
+				"vendor/laravel/framework/src/illuminate/foundation/auth/authenticatesusers",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/AuthenticatesUsers.php"
+			],
+			[
+				"serviceprovider",
+				"app/Providers/AuthServiceProvider.php"
+			],
+			[
+				"/illuminate/auth/authmanager",
+				"vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php"
+			],
+			[
+				"aut",
+				"app/Http/Middleware/Authenticate.php"
+			],
+			[
+				"page_404.html",
+				"public/assets/templates/gentelella/master/production/page_404.html"
+			],
+			[
+				"vendor/symfony/http-foundation/response.php",
+				"vendor/symfony/http-foundation/Response.php"
+			],
+			[
+				"uploadcontroller",
+				"app/Http/Controllers/sites/UploadController.php"
+			],
+			[
+				"vendor/laravel/framework/src/illuminate/routing/router.php",
+				"vendor/laravel/framework/src/Illuminate/Routing/Router.php"
+			],
+			[
+				"route.php",
+				"vendor/laravel/framework/src/Illuminate/Routing/Route.php"
+			],
+			[
+				"illuminate/routing/route",
+				"vendor/laravel/framework/src/Illuminate/Routing/Route.php"
+			],
+			[
+				"vendor/laravel/framework/src/illuminate/foundation/application.php",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Application.php"
+			],
+			[
+				"illuminate/support/serviceprovider",
+				"vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php"
+			],
+			[
+				"vendor/laravel/framework/src/illuminate/auth/authserviceprovider.php",
+				"vendor/laravel/framework/src/Illuminate/Auth/AuthServiceProvider.php"
+			],
+			[
+				"vendor/laravel/framework/src/illuminate/auth/authmanager.php",
+				"vendor/laravel/framework/src/Illuminate/Auth/AuthManager.php"
+			],
+			[
+				"vendor/laravel/framework/src/illuminate/auth/sessionguard.php",
+				"vendor/laravel/framework/src/Illuminate/Auth/SessionGuard.php"
+			],
+			[
+				"vendor/laravel/framework/src/illuminate/auth/genericuser.php",
+				"vendor/laravel/framework/src/Illuminate/Auth/GenericUser.php"
+			],
+			[
+				"guar",
+				"vendor/laravel/framework/src/Illuminate/Auth/GuardHelpers.php"
+			],
+			[
+				"facade",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php"
+			],
+			[
+				"facade.php",
+				"vendor/phpunit/php-file-iterator/src/Facade.php"
+			],
+			[
+				"middlewareauth",
+				"app/Http/Middleware/Authenticate.php"
+			],
+			[
+				"router",
+				"vendor/symfony/routing/Router.php"
+			],
+			[
+				"/illuminate/contracts/auth/factory",
+				"vendor/laravel/framework/src/Illuminate/Contracts/Auth/Factory.php"
+			],
+			[
+				"/illuminate/contracts/validation/validator",
+				"vendor/laravel/framework/src/Illuminate/Contracts/Validation/Validator.php"
+			],
+			[
+				"illuminate/auth/passwords/canresetpassword",
+				"vendor/laravel/framework/src/Illuminate/Auth/Passwords/CanResetPassword.php"
+			],
+			[
+				"illuminate/contracts/auth/access/authorizable",
+				"vendor/laravel/framework/src/Illuminate/Contracts/Auth/Access/Authorizable.php"
+			],
+			[
+				"illuminate/contracts/auth/access/gate",
+				"vendor/laravel/framework/src/Illuminate/Contracts/Auth/Access/Gate.php"
+			],
+			[
+				"illuminate/foundation/auth/access/authorizable",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/Access/Authorizable.php"
+			],
+			[
+				"illuminate/foundation/auth/user.php",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php"
+			],
+			[
+				"user",
+				"app/User.php"
+			],
+			[
+				"user.php",
+				"vendor/laravel/framework/src/Illuminate/Foundation/Auth/User.php"
+			],
+			[
+				"rout",
+				"app/Http/routes.php"
+			],
+			[
+				"facade.",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php"
+			],
+			[
+				"/illuminate/contracts/auth/authenticatable",
+				"vendor/laravel/framework/src/Illuminate/Contracts/Auth/Authenticatable.php"
+			],
+			[
+				"/illuminate/contracts/auth/guard",
+				"vendor/laravel/framework/src/Illuminate/Contracts/Auth/Guard.php"
+			],
+			[
+				"user.",
+				"app/User.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

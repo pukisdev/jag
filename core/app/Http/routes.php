@@ -11,6 +11,21 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+//     // return view('modules.sites.sn.social_networking');
+// });
+
+Route::auth();
+
+
+Route::get('/','sites\snController@index');
+Route::get('/home', 'HomeController@index');
+
+
+
+Route::get('/token', 'Auth\TokenController@getToken');
+
+Route::group(['prefix'=>'mst'], function(){
+	Route::get('pms/customer', 'PMS\customerController@_index');
 });

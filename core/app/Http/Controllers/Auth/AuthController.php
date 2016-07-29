@@ -7,6 +7,8 @@ use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Foundation\Auth\AuthenticatesAndRegistersUsers;
+use Carbon\Carbon as Carbon;
+
 
 class AuthController extends Controller
 {
@@ -50,7 +52,7 @@ class AuthController extends Controller
     {
         return Validator::make($data, [
             'name' => 'required|max:255',
-            'email' => 'required|email|max:255|unique:users',
+            'email' => 'required|email|max:255|unique:sys_user_mst',
             'password' => 'required|min:6|confirmed',
         ]);
     }
@@ -64,9 +66,31 @@ class AuthController extends Controller
     protected function create(array $data)
     {
         return User::create([
+            'f_nip_sys' => $this->getNewId(), 
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
+            'sys_user_created' => 'ADMIN',
+            'sys_tgl_created' => Carbon::now(),
         ]);
+    }
+
+
+    /**
+     * @function getNewId dibuat dan dikembangkan oleh rianday.
+     * @depok
+     * @return true
+     */
+    protected function getNewId()
+    {
+        $code = null;
+        do
+        {
+            $code = str_random(16); //mt_rand(100000, 9999999);
+            $user_code = User::where('f_nip_sys', $code)->first();
+        }
+        while(!empty($user_code));
+
+        return $code;        
     }
 }
