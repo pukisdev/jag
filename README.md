@@ -1,0 +1,2 @@
+# core
+view &amp; pdf 
